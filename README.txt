@@ -1,18 +1,17 @@
-README
+-- WEB CRAWLER ---
 
---- WEB CRAWLER ---
+A Webcrawler that starts with url on the web (ex: http://python.org), fetches the web-page corresponding to that url, and parses all the links on that page into a repository of links. Next, it fetches the contents of any of the url from the repository just created, parses the links from this new content into the repository and continues this process for all links in the repository until stopped or after a given number of links are fetched.
 
-Requitment	:  To write webcrawler that will a starts with a url on the web (ex: http://python.org), fetches the web-page corresponding to that url, and parses all the links on that page into a repository of links. Next, it fetches the contents of any of the url from the repository just created, parses the links from this new content into the repository and continues this process for all links in the repository until stopped or after a given number of links are fetched.
+How to Crawl
+- Give a valid url to be crawled
+- Define the depth of the crawl 
 
-Input		:  1. Valid URL that has to be crawled
-		   2. No.of links to be visited
-
-Frameused	:  jsoup 1.8.2
-
-Structure 	:  Created as a Maven project
-
-Output		:  The program will list all the links visited and fetches the content of link
+To Execute :
+The project is structured as Maven and all Dependencies are included.
+Run as JavaApplication
 
 
 
-I
+
+
+
